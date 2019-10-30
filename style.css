@@ -6,6 +6,7 @@ body{
 	font-family: Arial;
 	font-weight: 400;
 	font-size: 16px;
+	text-align: justify;
 }
 .clearfix:after {
     content: "";
@@ -74,7 +75,6 @@ font-size: 30px;
 }
 .plus_column{
 	display: flex;
-	justify-content: space-between;
 	margin-top: 30px;
 }
 .pluses h2{
@@ -84,14 +84,16 @@ font-size: 30px;
 }
 .pluses-1 span{
 	color: #333333;
-	padding-bottom: 35px;
+	margin-top: -3px;
+	padding-bottom: 30px;
 	padding-left: 10px;
+	padding-right: 10px;
 }
 .pluses-1 div{
 	display: flex;
 	align-items: flex-start;
 }
-.scrinshots section{
+.scrin-block{
 	display: flex;
 }
 .scrinshots h2{
@@ -144,7 +146,7 @@ font-size: 30px;
 	padding-top: 15px;
 	padding-right: 55px; 
 }
-.rewiews section{
+.rewiews-block{
 	display: flex;
 }
 .rev{
@@ -299,7 +301,7 @@ font-size: 30px;
 .networks{
     margin-top: 25px;	
 }
-.footer{
+.footer-small{
 	color: #445162;
     font-size: 12px;
     font-weight: 700;
